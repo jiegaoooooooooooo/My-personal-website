@@ -1,0 +1,75 @@
+/* General and Font */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    font-family: 'Lato', sans-serif;
+}
+
+fieldset{
+    padding: 2em;
+    border: 2px solid #6C5CE7;
+    border-right: 10px solid #6C5CE7;
+    border-bottom: 10px solid #6C5CE7;
+    border-radius: 15px;
+}
+
+/* Ttitle */
+#title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;          
+    font-weight: bold; 
+    margin-bottom: 0.5em;
+}
+
+/* Input Box */
+.typeBox{
+    margin-bottom: 1em;    
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    border: 2px solid lightgrey;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0984E3;
+}
+
+/* Login Button */
+button{
+    width: 100%;
+    padding: 0.5em;
+    border: 0;
+    border-radius: 8px;
+    background-color: #0984E3;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    margin-bottom: 1em;  
+}
+
+button:hover {
+    background-color: #6C5CE7;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(9, 132, 227, 0.3);
+}
+
+/* Footer */
+.form-footer{
+    text-align: center;
+    color: rgb(162, 162, 162);
+    transition: color 0.3s ease;
+}
+
+.form-footer:hover{
+    color: #6C5CE7;
+}

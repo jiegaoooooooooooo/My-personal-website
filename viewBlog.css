@@ -1,0 +1,157 @@
+/* General and Font */
+body{
+    display:grid;
+    min-height: 100vh;
+    grid-template-rows: 50px 0.4fr 0.2fr auto 50px;
+    gap: 2rem;
+    background-color: #F9F9F9;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Nav bar */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2D3436;
+    grid-row: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; 
+    z-index: 1000;
+}
+
+header ul{
+    display: flex;
+    gap: 2rem;
+    color: white;
+    padding: 1rem;
+}
+
+#viewBlog{
+    color: #0984E3;
+}
+
+header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    padding: 1rem;
+}
+
+header ul li a {
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #6C5CE7; 
+}
+
+header ul li:last-child a {
+    background-color: #0984E3;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+header ul li:last-child a:hover {
+    background-color: #6C5CE7;
+    color: white;
+}
+
+/* Title */
+#title{
+    grid-row: 2; 
+    font-size: 3rem; 
+    font-weight: 800;      
+    font-family: 'Montserrat', sans-serif;
+    color: #2D3436;   
+    justify-self: center; 
+    margin-top: 1.5rem;
+}
+
+/* Drop-down menu */
+section{
+    grid-row: 3; 
+    text-align: center;
+    margin-bottom: 2rem    
+}
+
+#archive-filter {
+    align-self: end;
+}
+
+#month-select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #6C5CE7;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+/* Blog */
+#blog{
+    grid-row: 4;    
+}
+
+.blog-entry {
+    padding: 2rem;
+    border: 2px solid #6C5CE7;
+    border-right: 10px solid #6C5CE7;
+    border-bottom: 10px solid #6C5CE7;
+    border-radius: 10px; 
+    margin: 2rem;
+    margin-top: 1rem;
+}
+
+.blog-date {
+    color: #636e72;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.blog-content {
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    grid-row: 5;
+    background-color: #2D3436; 
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; 
+    z-index: 1000;
+}
+
+footer ul {
+    display: flex;
+    gap: 1.5rem; 
+}
+
+footer ul li img {
+    width: 24px;  
+    height: 24px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+footer ul li img:hover {
+    transform: scale(1.2);
+}
