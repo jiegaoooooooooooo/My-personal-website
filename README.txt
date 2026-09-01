@@ -10,7 +10,7 @@ A responsive, full-stack personal portfolio and blog publishing system built fro
 * **Dual-Layer Validation**:
   * **Client-Side (JavaScript)**: Real-time form validation and DOM manipulation to ensure inputs meet formatting criteria before submission.
   * **Server-Side (PHP)**: HTTP POST request sanitization and validation to prevent malformed data injection.
-* **Responsive & Modular UI**: Custom-built stylesheet used CSS Flexbox, Grid with modern and clean visual design.
+* **Responsive & Modular UI**: Custom-built stylesheet utilizing CSS Flexbox, Grid with modern and clean visual design.
 * **Separation of Concerns**: Clean project structure separating frontend styling (`.css`), client scripting (`.js`), and backend business logic (`.php`).
 
 ---
