@@ -1,7 +1,8 @@
 # Dynamic Portfolio & Blog Management Platform
 
-A responsive, full-stack personal portfolio and blog publishing system built from scratch using **PHP, Vanilla JavaScript (ES6+), HTML5, and CSS3**.
+A responsive, full-stack personal portfolio and blog publishing system built from scratch using **PHP, Vanilla JavaScript (ES6+), HTML5, and CSS3.
 
+Click preview.gif to watch a quick demo.
 ---
 
 ## 🚀 Key Features
